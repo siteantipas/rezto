@@ -1,2 +1,2 @@
-# restoo
-A Restaurant Management System
+# Restoo
+A Restaurant Management System (PHP, MySQL, MaterializeCSS)
