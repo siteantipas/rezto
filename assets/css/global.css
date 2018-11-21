@@ -1,0 +1,70 @@
+.body{
+
+background: #7c4dff;
+background: -moz-linear-gradient(top, #7c4dff 0%, #7c4dff 7%, #7c4dff 50%, rgba(33,180,226,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 99%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, #7c4dff), color-stop(7%, #7c4dff), color-stop(50%, #7c4dff), color-stop(50%, rgba(33,180,226,1)), color-stop(50%, rgba(255,255,255,1)), color-stop(99%, rgba(255,255,255,1)));
+background: -webkit-linear-gradient(top, #7c4dff 0%, #7c4dff 7%, #7c4dff 50%, rgba(33,180,226,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 99%);
+background: -o-linear-gradient(top, #7c4dff 0%, #7c4dff 7%, #7c4dff 50%, rgba(33,180,226,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 99%);
+background: -ms-linear-gradient(top, #7c4dff 0%, #7c4dff 7%, #7c4dff 50%, rgba(33,180,226,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 99%);
+background: linear-gradient(to bottom, #7c4dff 0%, #7c4dff 7%, #7c4dff 50%, rgba(33,180,226,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 99%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#ffffff', GradientType=0 ); 
+
+
+}
+
+.striped{
+
+
+}
+		 .panel{
+
+background: #FEAC5E;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #4BC0C8, #7c4dff, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #4BC0C8, #7c4dff, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+		 }
+		 .atlas2{
+
+		background: #FEAC5E;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #4BC0C8, #7c4dff, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #4BC0C8, #7c4dff, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 	
+		 }
+
+		 .atlas3{
+	background: #FEAC5E;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #4BC0C8, #7c4dff, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #4BC0C8, #7c4dff, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+ .no-shadow{
+ 	box-shadow: none!important;
+ }
+ .no-border{
+ 	border: none!important;
+ }
+ .no-margin{
+ 	margin: 0px!important;
+ }
+ .no-padding{
+ 	padding: 0px!important;
+ }
+ .transparent{
+ 	background-color: transparent!important;
+ }
+ .tab .material-icons.text-small{
+ 	 font-size: 15px!important;
+ 	 margin-top: -3px!important;
+ 	 vertical-align: middle!important;
+ }
+ .text-small{
+ 	font-size: 14px!important;
+ }
+ .text-large{
+ 	font-size: 100px!important;
+ }
+ .reduced{
+ 	padding-left: 5%;
+ 	padding-right: 5%;
+ }
