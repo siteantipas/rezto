@@ -1,2 +1,2 @@
-# Restoo
-A Restaurant Management System (PHP, MySQL, MaterializeCSS)
+# Rezto
+World best restaurant management system
