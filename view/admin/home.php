@@ -2,17 +2,10 @@
 <html>
 <head>
 	<title> <?php print APP_NAME ?> :: Welcome </title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" />
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?u8vidh"><link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Faster+One|Julee|Mandali|Numans|Snippet" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="assets/css/global.css">
-	<script src="assets/js/global.js"></script>
+	<?php require_once SERVER_ROOT . ROOT . '/view/inc/head.php' ?>
 </head>
 <body class="body" style="overflow: hidden;">
+	<div id="notify"></div>
 	<br>
 	<div class="fixed-action-btn vertical click-to-toggl">
 	    <a class="btn-floating btn-large red waves-effect waves-light bg">
@@ -28,7 +21,7 @@
 	<div class="row">
 		<div class="col s0 m0 l0 xl1"></div>
 		<div class="col s12 m12 l12 xl10">
-			<div class="striped white z-depth-3" style="height: 900px;overflow-x: hidden;padding: 10px;border-radius: 5px;">
+			<div class="striped white z-depth-3 animsition" style="height: 900px;overflow-x: hidden;padding: 10px;border-radius: 5px;">
 				<nav class="nav-extended no-shadow transparent">
 				    <div class="nav-wrapper">
 				      <a href="" class="brand-logo color" style="font-family: sans-serif;">&nbsp;&nbsp;<?php print APP_NAME ?></a>
@@ -79,10 +72,10 @@
 					        <a href="#!" class="collection-item white-text active bg">Notifications <i class="material-icons i right text-small">notifications</i></a></a>
 					        <a href="#!" class="collection-item color ">Statistics <i class="material-icons right text-small">timeline</i></a>
 					        <a href="#!" class="collection-item color">Advertise <i class="material-icons right text-small">assignment</i></a>
-					        <a href="#!" class="collection-item color">Notes <i class="material-icons right text-small">insert_invitation</i></a>
+					        <a href="#!" class="collection-item color">Notes <i class="material-icons right text-small">edit</i></a>
 					    </div>
 			  	 	 </div>
-			  	 	 <div class="col s12 m12 l8 xl10 grey lighten-4">
+			  	 	 <div class="col s12 m12 l8 xl10 grey lighten-4 section">
 			  	 	 	<br>
 			  	 	 	<br>
 			  	 	 </div>
@@ -96,8 +89,9 @@
 			  	 	 	<!--<h5 class="tab-header"><u>Dashboard</u></h5>-->
 			  	 	 	<div class="collection no-border no-margin">
 					        <a href="#!" class="collection-item white-text active bg">New <i class="material-icons i right text-small">kitchen</i></a></a>
-					        <a href="#!" class="collection-item color ">Approved <i class="material-icons right text-small">thumb_up</i></a>
-					        <a href="#!" class="collection-item color ">Processed <i class="material-icons right text-small">done</i></a>
+					        <a href="#!" class="collection-item color ">Search     <i class="material-icons right text-small">search</i></a>
+					        <a href="#!" class="collection-item color ">Approved   <i class="material-icons right text-small">thumb_up</i></a> 
+					        <a href="#!" class="collection-item color ">Processed  <i class="material-icons right text-small">done</i></a>
 					        <a href="#!" class="collection-item color"> Cancelled  <i class="material-icons right text-small">clear</i></a>
 					    </div>
 			  	 	 </div>
@@ -116,9 +110,10 @@
 			  	 	 	<div class="collection no-border no-margin">
 					        <a href="#!" class="collection-item white-text active bg">New <i class="material-icons i right text-small">person</i></a></a>
 					        <a href="#!" class="collection-item color ">Regular <i class="material-icons right text-small">refresh</i></a> 
+					        <a href="#!" class="collection-item color ">Campaign <i class="material-icons right text-small">assessment</i></a> 
 					    </div>
 			  	 	 </div>
-			  	 	 <div class="col s12 m12 l8 xl10 grey lighten-4">
+			  	 	 <div class="col s12 m12 l8 xl10 grey lighten-4 section">
 			  	 	 	<br>
 			  	 	 	<br>
 			  	 	 </div>
@@ -131,12 +126,12 @@
 			  	 	 <div class="col s12 m12 l4 xl2">
 			  	 	 	<!--<h5 class="tab-header"><u>Dashboard</u></h5>-->
 			  	 	 	<div class="collection no-border no-margin">
-					        <a href="#!" class="collection-item white-text active bg">All <i class="material-icons i right text-small">room_service</i></a></a>
-					        <a href="#!" class="collection-item color ">Add <i class="material-icons right text-small">add</i></a>
-					        <a href="#!" class="collection-item color">Edit <i class="material-icons right text-small">mode_edit</i></a> 
+					        <a href="#!" class="collection-item white-text active bg">All meals<i class="material-icons i right text-small">room_service</i></a></a>
+					        <a href="#!" class="collection-item color">Drinks<i class="material-icons i right text-small">local_bar</i></a></a>
+					        <a href="#!" class="collection-item color ">Add new<i class="material-icons right text-small">add</i></a> 
 					    </div>
 			  	 	 </div>
-			  	 	 <div class="col s12 m12 l8 xl10 grey lighten-4">
+			  	 	 <div class="col s12 m12 l8 xl10 grey lighten-4 section">
 			  	 	 	<br>
 			  	 	 	<br>
 			  	 	 </div>
@@ -146,7 +141,7 @@
 			  	 <br>
 			  	 <br>
 			  	 <div class="row">
-			  	 	 <div class="col s12 m12 l4 xl2">
+			  	 	 <div class="col s12 m12 l4 xl2 section">
 			  	 	 	<!--<h5 class="tab-header"><u>Dashboard</u></h5>-->
 			  	 	 	<div class="collection no-border no-margin">
 					        <a href="#!" class="collection-item white-text active bg"><?php print APP_NAME ?><i class="material-icons i right text-small">store</i></a></a>

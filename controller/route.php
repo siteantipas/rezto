@@ -8,6 +8,7 @@ class Route extends AccountSession
 	protected static $pages = [
 		'home',
 		'admin',
+		'receipt',
 	];
 
 	function __construct()

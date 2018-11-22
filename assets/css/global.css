@@ -1,42 +1,44 @@
 .body{
 
-background: #7c4dff;
-background: -moz-linear-gradient(top, #7c4dff 0%, #7c4dff 7%, #7c4dff 50%, rgba(33,180,226,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 99%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, #7c4dff), color-stop(7%, #7c4dff), color-stop(50%, #7c4dff), color-stop(50%, rgba(33,180,226,1)), color-stop(50%, rgba(255,255,255,1)), color-stop(99%, rgba(255,255,255,1)));
-background: -webkit-linear-gradient(top, #7c4dff 0%, #7c4dff 7%, #7c4dff 50%, rgba(33,180,226,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 99%);
-background: -o-linear-gradient(top, #7c4dff 0%, #7c4dff 7%, #7c4dff 50%, rgba(33,180,226,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 99%);
-background: -ms-linear-gradient(top, #7c4dff 0%, #7c4dff 7%, #7c4dff 50%, rgba(33,180,226,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 99%);
-background: linear-gradient(to bottom, #7c4dff 0%, #7c4dff 7%, #7c4dff 50%, rgba(33,180,226,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 99%);
+background: #e0e0e0;
+background: -moz-linear-gradient(top, #e0e0e0 0%, #e0e0e0 7%, #e0e0e0 50%, rgba(33,180,226,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 99%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, #e0e0e0), color-stop(7%, #e0e0e0), color-stop(50%, #e0e0e0), color-stop(50%, rgba(33,180,226,1)), color-stop(50%, rgba(255,255,255,1)), color-stop(99%, rgba(255,255,255,1)));
+background: -webkit-linear-gradient(top, #e0e0e0 0%, #e0e0e0 7%, #e0e0e0 50%, rgba(33,180,226,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 99%);
+background: -o-linear-gradient(top, #e0e0e0 0%, #e0e0e0 7%, #e0e0e0 50%, rgba(33,180,226,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 99%);
+background: -ms-linear-gradient(top, #e0e0e0 0%, #e0e0e0 7%, #e0e0e0 50%, rgba(33,180,226,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 99%);
+background: linear-gradient(to bottom, #e0e0e0 0%, #e0e0e0 7%, #e0e0e0 50%, rgba(33,180,226,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 99%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#ffffff', GradientType=0 ); 
 
 
 }
 
-.striped{
+.panel{
 
-
-}
-		 .panel{
-
-background: #FEAC5E;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #4BC0C8, #7c4dff, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #4BC0C8, #7c4dff, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-		 }
-		 .atlas2{
-
-		background: #FEAC5E;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #4BC0C8, #7c4dff, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #4BC0C8, #7c4dff, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- 	
-		 }
-
-		 .atlas3{
 	background: #FEAC5E;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to top, #4BC0C8, #7c4dff, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to top, #4BC0C8, #7c4dff, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: -webkit-linear-gradient(to left, #4BC0C8, #e0e0e0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #4BC0C8, #e0e0e0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
+.atlas2{
+
+	background: #FEAC5E;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #4BC0C8, #e0e0e0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #4BC0C8, #e0e0e0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ }
+
+.atlas3{
+	background: #FEAC5E;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #4BC0C8, #e0e0e0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #4BC0C8, #e0e0e0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.section{
+	overflow-y:auto!important;
+	overflow-x:hidden!important;
+	height: 620px;
+}
 
  .no-shadow{
  	box-shadow: none!important;
@@ -64,7 +66,155 @@ background: #FEAC5E;  /* fallback for old browsers */
  .text-large{
  	font-size: 100px!important;
  }
+ .text-bold{
+    font-weight: bold!important;
+ }
+ .text-light{
+    font-weight: lighter!important;
+ }
+ 
+ .text-align-right{
+    text-align: right!important;
+    padding-right: 5px!important;
+    padding-left: 5px!important;
+ }
+
+ .border-light{
+    border: 1px solid #eeeeee!important;
+ }
  .reduced{
  	padding-left: 5%;
  	padding-right: 5%;
  }
+
+ .btn-block{
+    width: 100%!important;
+ }
+
+.modal-small{ 
+      background:white;   
+  }
+   
+  @media screen ( min-width: 701px and max-width: 1100px ) {
+    .modal-small{
+      width: 30%;
+      height:350px!important;   
+
+    }
+    .modal-small .modal-content{
+       overflow-y: hidden!important; 
+    }
+  } 
+
+  @media screen and ( min-width: 1101px ) {
+    .modal-small{
+      width: 25%;
+      height:350px!important;   
+
+    }
+    .modal-small .modal-content{
+       overflow-y: hidden!important; 
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+     .modal-small{
+       height: 85%!important;
+       width: 98%;
+   }
+}
+
+.font-1{ font-family: 'Black Han Sans'!important; }
+.font-2{ font-family: 'Candal'!important; }
+.font-3{ font-family: 'Fredoka One'!important; }
+.font-4{ font-family: 'Fugaz One'!important; }
+.font-5{ font-family: 'Gamja Flower'!important; }
+.font-6{ font-family: 'Righteous'!important; }
+.font-7{ font-family: 'Shrikhand'!important; }
+.font-8{ font-family: 'Sigmar One'!important; }
+.font-9{ font-family: 'Syncopate'!important; }
+.font-10{ font-family: 'Anton'!important; }
+
+/* Bungee+Inline|El+Messiri|Faster+One|Inconsolata|Kaushan+Script|Monoton|PT+Sans|Philosopher|Poiret+One|Titan+One"  */
+
+.font-11{ font-family: 'Bungee Inline'!important; }
+.font-12{ font-family: 'El Messiri'!important; }
+.font-13{ font-family: 'Faster One'!important; }
+.font-14{ font-family: 'Inconsolata'!important; }
+.font-15{ font-family: 'Kaushan Script'!important; }
+.font-16{ font-family: 'Monoton'!important; }
+.font-17{ font-family: 'PT Sans'!important; }
+.font-18{ font-family: 'Philosopher'!important; }
+.font-19{ font-family: 'Poiret One'!important; }
+.font-20{ font-family: 'Titan One'!important; }
+
+h1,h2,h3,h4,h5{
+   font-weight: normal!important;
+}
+.toast{
+  background: rgb(0,0,0)!important;
+}
+
+.spinner {
+  margin: 35px auto;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.spinner > div {
+  background-color: #2196f3;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes sk-stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% { 
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
+
+/*
+<div class="spinner">
+  <div class="rect1"></div>
+  <div class="rect2"></div>
+  <div class="rect3"></div>
+  <div class="rect4"></div>
+  <div class="rect5"></div>
+</div>
+
+*/
